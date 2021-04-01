@@ -1,0 +1,271 @@
+.container{
+    max-width: 85%;
+}
+
+.img-fluid{
+    width: 60px;
+    height: 50px;
+}
+
+.nav-link{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.back{margin-top: 80px;
+    background-image: linear-gradient(rgb(95, 200, 214), rgb(95, 200, 214)), url('https://daks.me/images/html/img_mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+    opacity: 0.8;
+    box-shadow: 2px 2px 5px #3292a6;
+}
+
+
+.back .img{
+    width: 100%;
+    height:100vh ;
+}
+
+.mt{
+    margin-top: 100px;
+}
+
+.fs{
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 100;
+    line-height: 110px;
+}
+
+.fas{
+    height: 50px;
+}
+
+.fs span{
+    margin-left: 35px;
+}
+
+.paragraf{
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.btn{
+   border: 1px solid #777; 
+   color: #fff;
+   font-weight: 400;
+   font-size: 20px;
+    
+   border-radius: 5px;
+   padding: 8px 15px;
+}
+.div{
+    min-height: 144px;
+    background-color: #343a40;
+}
+
+
+.div input{
+    font-size: 23px;
+    border: 1px solid #343a40;
+    border-radius: 6px;
+    padding: 10px 60px 10px 20px;
+}
+
+.div .card{
+    width: 100%;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+}
+
+.card .text{
+ 
+  background-color: #3292a6 !important  ;
+}
+
+.block-be{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border: 1px solid #3292a6;
+    text-align: center;
+    background-color: #3292a6;
+}
+
+.block-be h1{
+    font-size: 27px;
+}
+
+.block-b h1{
+    font-size: 27px;  
+}
+
+.block-b{
+    color: #3292a6;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border: 1px solid #3292a6;
+    text-align: center;
+}
+.block-b p{
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.why{
+    margin-top: 40px;
+    padding-top: 40px;
+    background-color: #f8f9fa;
+    padding-bottom: 30px;
+
+}
+
+.book h1{
+    color: #3292a6;
+}
+
+.book-paragraf{
+    width: 48%;
+    margin: auto;
+    border-bottom: 2px solid rgb(202, 199, 199);
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.why ul{
+list-style-type: none;
+border: 1px solid rgb(209, 206, 206);
+text-decoration: none;
+padding-left: 0;
+
+}
+
+.why ul li:nth-child(even){
+    background-color:#fff;
+}
+.why ul li:nth-child(odd){
+    font-size: 1.3em;
+    font-weight: 500;
+    padding:15px;
+}
+
+.meet-cont{
+    margin-bottom: 100px;
+}
+.meet .row .card:hover{
+    background-color: #3292a6;
+    color: #fff;
+}
+
+.meet img{
+    width: 40%;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -70px;
+    border-style: none;
+    
+}
+
+.meet h3{
+    margin-top: 30px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.meet h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #999;
+}
+
+.meet .row p{
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: auto;
+    
+}
+
+.img-logo {
+    width: 300px;
+    height: 40vh;
+}
+
+.foot{
+    font-weight: 500;
+}
+
+
+@media (max-width:991px){
+    .img-logo{
+        margin-left: 30%;
+    }
+
+    .back {
+        padding-bottom: 150px;
+    }
+
+    .back .img{
+         display: none;
+}
+
+    .div{
+        padding: 20px 0;
+    }
+
+    .div .card{
+        width: 60%;
+        margin: 15px auto;
+        
+    }
+
+    .meet .card{
+        margin-bottom: 50px;
+    }
+
+    .block-b{
+       
+    }
+}
+
+@media(max-width:571px){
+    .img-logo{
+        margin-left: 20%;
+    } 
+
+    .div .card{
+        width: 100%;
+        margin: 15px auto;
+        
+    }
+
+    .block-b{
+        width: 100%;
+        margin-bottom: -45px;
+    }
+    .block-be{
+        width: 100%;
+        margin-bottom: -45px;
+    }
+
+    .why{
+        margin-top: 80px;
+    }
+
+    .why p{
+        text-align: unset;
+    }
+}
